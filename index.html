@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <title>Gallery of Masters · 大师画廊</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 页面顶部装饰条 -->
+  <div class="texture-bar"></div>
+
+  <!-- 头部 -->
+  <header class="site-header">
+    <h1 class="site-title">Gallery of Masters</h1>
+    <p class="site-subtitle">探索西方绘画大师的永恒杰作</p>
+  </header>
+
+  <!-- 筛选栏 -->
+  <nav class="filter-bar">
+    <div class="filter-group">
+      <label for="filter-artist">画家</label>
+      <select id="filter-artist">
+        <option value="all">全部画家</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-color">色调风格</label>
+      <select id="filter-color">
+        <option value="all">全部色调</option>
+        <option value="warm">暖色调</option>
+        <option value="cold">冷色调</option>
+        <option value="dark">明暗对比</option>
+        <option value="soft">柔和光影</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-style">流派</label>
+      <select id="filter-style">
+        <option value="all">全部流派</option>
+      </select>
+    </div>
+    <button class="btn-reset" id="btn-reset">重置筛选</button>
+  </nav>
+
+  <!-- 画作网格 -->
+  <main class="gallery" id="gallery">
+    <!-- JS 动态填充 -->
+  </main>
+
+  <!-- 空状态 -->
+  <div class="empty-state" id="empty-state" style="display:none;">
+    <p>没有找到符合条件的画作，试试其他筛选条件？</p>
+  </div>
+
+  <!-- 模态弹窗 -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <div class="modal-body">
+        <div class="modal-image-wrap">
+          <img id="modal-image" src="" alt="">
+        </div>
+        <div class="modal-info">
+          <h2 id="modal-title" class="modal-title"></h2>
+          <p id="modal-title-en" class="modal-title-en"></p>
+          <div class="modal-meta">
+            <span class="meta-artist" id="modal-artist"></span>
+            <span class="meta-year" id="modal-year"></span>
+            <span class="meta-style" id="modal-style"></span>
+          </div>
+          <p id="modal-desc" class="modal-desc"></p>
+          <div class="modal-museum">
+            <span class="museum-label">在哪里看真迹：</span>
+            <a id="modal-museum-link" href="" target="_blank" rel="noopener">
+              <span id="modal-museum-name"></span>
+              <span id="modal-museum-city" class="museum-city"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <p>所有画作图片来自公共领域 · 数据来源 Wikipedia & Museum Open Access</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
