@@ -16,9 +16,20 @@
 
   <!-- 头部 -->
   <header class="site-header">
-    <h1 class="site-title">Gallery of Masters</h1>
+    <div class="title-row">
+      <button class="theme-btn theme-btn-vangogh" id="btn-vangogh" title="一键梵高·星月夜">
+        <img src="images/btn-vangogh.png" alt="梵高">
+      </button>
+      <h1 class="site-title">Gallery of Masters</h1>
+      <button class="theme-btn theme-btn-monet" id="btn-monet" title="一键莫奈·睡莲">
+        <img src="images/btn-monet.png" alt="莫奈">
+      </button>
+    </div>
     <p class="site-subtitle">探索西方绘画大师的永恒杰作</p>
   </header>
+
+  <!-- 动态背景画布 -->
+  <canvas id="bg-canvas"></canvas>
 
   <!-- 筛选栏 -->
   <nav class="filter-bar">

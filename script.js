@@ -123,7 +123,18 @@
     // === 亚历山大·卡巴内尔 (Alexandre Cabanel) - 学院派 ===
     {"id":81,"title":"The Birth of Venus","titleCn":"维纳斯的诞生","artist":"Alexandre Cabanel","artistCn":"亚历山大·卡巴内尔","year":1875,"style":"Academicism","styleCn":"学院派","colorTone":"soft","colorToneCn":"柔和光影","description":"卡巴内尔最著名的作品，与波提切利的同名画并列为艺术史上最知名的维纳斯形象。女神横卧在海浪之上，丘比特们在空中飞翔。理想化的人体和柔美的色调使这幅画成为法国学院派的标杆之作。","museum":"Metropolitan Museum of Art","city":"New York, USA","museumUrl":"https://www.metmuseum.org/art/collection/search/435831","image":"images/birth-venus-cabanel.jpg"},
     {"id":82,"title":"Florentine Poet","titleCn":"佛罗伦萨诗人","artist":"Alexandre Cabanel","artistCn":"亚历山大·卡巴内尔","year":1861,"style":"Academicism","styleCn":"学院派","colorTone":"dark","colorToneCn":"明暗对比","description":"卡巴内尔的历史题材作品。一位年轻的佛罗伦萨诗人正在朗读自己的作品，周围的听众神态各异。画面构图严谨，人物刻画精致入微，展现了学院派对文学与艺术相融合的理想追求。","museum":"Metropolitan Museum of Art","city":"New York, USA","museumUrl":"https://www.metmuseum.org/art/collection/search/435832","image":"images/florentine-poet.jpg"},
-    {"id":83,"title":"Echo","titleCn":"回声女神厄科","artist":"Alexandre Cabanel","artistCn":"亚历山大·卡巴内尔","year":1874,"style":"Academicism","styleCn":"学院派","colorTone":"soft","colorToneCn":"柔和光影","description":"取材自奥维德《变形记》中的希腊神话。水仙那耳喀索斯拒绝了厄科的爱情，她悲伤地隐入山林最终化为回声。卡巴内尔以柔美的笔触和诗意的光线，将这个悲伤的神话诠释为一曲无声的哀歌。","museum":"Metropolitan Museum of Art","city":"New York, USA","museumUrl":"https://www.metmuseum.org/art/collection/search/435829","image":"images/echo-cabanel.jpg"}
+    {"id":83,"title":"Echo","titleCn":"回声女神厄科","artist":"Alexandre Cabanel","artistCn":"亚历山大·卡巴内尔","year":1874,"style":"Academicism","styleCn":"学院派","colorTone":"soft","colorToneCn":"柔和光影","description":"取材自奥维德《变形记》中的希腊神话。水仙那耳喀索斯拒绝了厄科的爱情，她悲伤地隐入山林最终化为回声。卡巴内尔以柔美的笔触和诗意的光线，将这个悲伤的神话诠释为一曲无声的哀歌。","museum":"Metropolitan Museum of Art","city":"New York, USA","museumUrl":"https://www.metmuseum.org/art/collection/search/435829","image":"images/echo-cabanel.jpg"},
+    // === 克劳德·莫奈 (Claude Monet) - 印象派 ===
+    {"id":84,"title":"The Red Kerchief","titleCn":"红头巾","artist":"Claude Monet","artistCn":"克劳德·莫奈","year":1870,"style":"Impressionism","styleCn":"印象派","colorTone":"cold","colorToneCn":"冷色调","description":"莫奈最私密的画作之一，终生不曾出售。第一任妻子卡米耶戴着红色头巾从阿让特伊住所的法式玻璃门外经过，白雪覆盖的花园作为背景。透过窗玻璃的模糊效果赋予画面梦幻般的诗意。","museum":"Cleveland Museum of Art","city":"Cleveland, USA","museumUrl":"https://www.clevelandart.org/art/1958.39","image":"images/monet-red-kerchief.jpg"},
+    {"id":85,"title":"Water Lilies (Agapanthus)","titleCn":"睡莲（百子莲）","artist":"Claude Monet","artistCn":"克劳德·莫奈","year":1920,"style":"Impressionism","styleCn":"印象派","colorTone":"cold","colorToneCn":"冷色调","description":"莫奈晚年巨幅睡莲系列之一。画面完全由水面、倒影和漂浮的睡莲构成，没有天际线和岸边参照物。紫蓝色的光影与翠绿的莲叶交织，创造出近乎抽象的冥想空间，影响了后来的抽象表现主义。","museum":"Cleveland Museum of Art","city":"Cleveland, USA","museumUrl":"https://www.clevelandart.org/art/1960.81","image":"images/monet-water-lilies-cma.jpg"},
+    {"id":86,"title":"Gardener's House at Antibes","titleCn":"昂蒂布的园丁小屋","artist":"Claude Monet","artistCn":"克劳德·莫奈","year":1888,"style":"Impressionism","styleCn":"印象派","colorTone":"warm","colorToneCn":"暖色调","description":"1888年莫奈前往法国南部昂蒂布写生期间的作品。地中海的强烈阳光照耀着小屋和花园，远处湛蓝的海面与阿尔卑斯雪山相映。明亮的色彩和轻快的笔触捕捉了南法独特的光线与氛围。","museum":"Cleveland Museum of Art","city":"Cleveland, USA","museumUrl":"https://www.clevelandart.org/art/1916.1044","image":"images/monet-gardener-antibes.jpg"},
+    {"id":87,"title":"Low Tide at Pourville, near Dieppe","titleCn":"普维尔的退潮","artist":"Claude Monet","artistCn":"克劳德·莫奈","year":1882,"style":"Impressionism","styleCn":"印象派","colorTone":"cold","colorToneCn":"冷色调","description":"莫奈在诺曼底海滨小镇普维尔创作的海景画。退潮后裸露的礁石和沙滩在阳光下呈现丰富的色彩变化，远处的悬崖在薄雾中隐约可见。细碎的笔触完美传达了海风中潮湿的空气感。","museum":"Cleveland Museum of Art","city":"Cleveland, USA","museumUrl":"https://www.clevelandart.org/art/1947.196","image":"images/monet-low-tide-pourville.jpg"},
+    {"id":88,"title":"Spring Flowers","titleCn":"春花","artist":"Claude Monet","artistCn":"克劳德·莫奈","year":1864,"style":"Impressionism","styleCn":"印象派","colorTone":"warm","colorToneCn":"暖色调","description":"莫奈早期的花卉静物画，创作于印象派运动正式兴起之前。各色春花在花瓶中绽放，色彩鲜艳而笔触尚属传统。这幅作品见证了年轻莫奈从学院派向外光写生过渡的关键时期。","museum":"Cleveland Museum of Art","city":"Cleveland, USA","museumUrl":"https://www.clevelandart.org/art/1953.155","image":"images/monet-spring-flowers.jpg"},
+    {"id":89,"title":"Woman with a Parasol - Madame Monet and Her Son","titleCn":"撑阳伞的女人——莫奈夫人和她的儿子","artist":"Claude Monet","artistCn":"克劳德·莫奈","year":1875,"style":"Impressionism","styleCn":"印象派","colorTone":"soft","colorToneCn":"柔和光影","description":"印象派最具标志性的作品之一。卡米耶撑着阳伞站在山丘上，白裙在风中飘扬，小儿子让在草丛中仰望母亲。逆光中飘动的衣裙和流云营造出瞬间即逝的光影之美，是莫奈捕捉\"印象\"的极致体现。","museum":"National Gallery of Art","city":"Washington D.C., USA","museumUrl":"https://www.nga.gov/collection/art-object-page.61379.html","image":"images/monet-woman-parasol.jpg"},
+    {"id":90,"title":"The Japanese Footbridge","titleCn":"日本桥","artist":"Claude Monet","artistCn":"克劳德·莫奈","year":1899,"style":"Impressionism","styleCn":"印象派","colorTone":"cold","colorToneCn":"冷色调","description":"莫奈吉维尼花园中最著名的景致。绿色的日本风格拱桥横跨睡莲池塘，紫藤从桥上垂下，水面倒映着蓝天绿柳。精心构建的花园成为莫奈晚年取之不尽的创作源泉。","museum":"National Gallery of Art","city":"Washington D.C., USA","museumUrl":"https://www.nga.gov/collection/art-object-page.46240.html","image":"images/monet-nga-bridge.jpg"},
+    {"id":91,"title":"Houses of Parliament, Sunset","titleCn":"国会大厦·日落","artist":"Claude Monet","artistCn":"克劳德·莫奈","year":1903,"style":"Impressionism","styleCn":"印象派","colorTone":"warm","colorToneCn":"暖色调","description":"莫奈伦敦系列的代表作。泰晤士河畔的国会大厦在夕阳的金色光芒中化为朦胧的剪影，水面反射着天空的橙紫色光辉。大气中的雾霭将建筑轮廓溶解为色彩的交响。","museum":"National Gallery of Art","city":"Washington D.C., USA","museumUrl":"https://www.nga.gov/collection/art-object-page.46573.html","image":"images/monet-nga-houses-parl.jpg"},
+    {"id":92,"title":"The Palazzo Ducale, Seen from San Giorgio Maggiore","titleCn":"从圣乔治马焦雷岛眺望总督宫","artist":"Claude Monet","artistCn":"克劳德·莫奈","year":1908,"style":"Impressionism","styleCn":"印象派","colorTone":"warm","colorToneCn":"暖色调","description":"莫奈1908年威尼斯之行的成果。总督宫的哥特式建筑在水面的倒影中摇曳，晨光将一切渲染成金色与紫罗兰色的交响。莫奈将威尼斯化为一座漂浮在光与色之上的梦幻之城。","museum":"National Gallery of Art","city":"Washington D.C., USA","museumUrl":"https://www.nga.gov/collection/art-object-page.46587.html","image":"images/monet-nga-palazzo.jpg"},
+    {"id":93,"title":"Water Lilies","titleCn":"睡莲","artist":"Claude Monet","artistCn":"克劳德·莫奈","year":1907,"style":"Impressionism","styleCn":"印象派","colorTone":"cold","colorToneCn":"冷色调","description":"莫奈睡莲系列中的经典之作。圆形的莲叶漂浮在倒映着天空的水面上，深蓝与翠绿的色调营造出宁静而深邃的氛围。莫奈在这些作品中打破了传统风景画的空间规则，创造了全新的视觉体验。","museum":"National Gallery of Art","city":"Washington D.C., USA","museumUrl":"https://www.nga.gov/collection/art-object-page.46572.html","image":"images/monet-nga-waterlilies2.jpg"}
   ];
 
   // 填充筛选下拉框
@@ -233,4 +244,216 @@
 
   // 初始渲染
   renderGallery();
+
+  // ===== 动态背景切换 =====
+  const canvas = document.getElementById('bg-canvas');
+  const ctx = canvas.getContext('2d');
+  const btnVangogh = document.getElementById('btn-vangogh');
+  const btnMonet = document.getElementById('btn-monet');
+  let currentTheme = null;
+  let animationId = null;
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
+
+  // 梵高星月夜动态背景
+  function drawStarryNight(time) {
+    const w = canvas.width, h = canvas.height;
+    ctx.fillStyle = '#0a1628';
+    ctx.fillRect(0, 0, w, h);
+
+    // 旋涡背景
+    for (let i = 0; i < 6; i++) {
+      const cx = w * (0.15 + i * 0.15);
+      const cy = h * (0.2 + Math.sin(i * 1.2) * 0.15);
+      const r = 60 + i * 20;
+      for (let j = 0; j < 30; j++) {
+        const angle = (j / 30) * Math.PI * 4 + time * 0.0005 * (i % 2 === 0 ? 1 : -1);
+        const dist = r * (j / 30);
+        const x = cx + Math.cos(angle) * dist;
+        const y = cy + Math.sin(angle) * dist;
+        ctx.beginPath();
+        ctx.arc(x, y, 2 + j * 0.2, 0, Math.PI * 2);
+        ctx.fillStyle = `hsla(${210 + j * 2}, 70%, ${40 + j}%, ${0.3 + j * 0.02})`;
+        ctx.fill();
+      }
+    }
+
+    // 流动的笔触线条
+    for (let i = 0; i < 12; i++) {
+      ctx.beginPath();
+      ctx.strokeStyle = `hsla(${200 + i * 10}, 60%, ${50 + i * 3}%, 0.15)`;
+      ctx.lineWidth = 3 + i * 0.5;
+      const startY = h * (0.1 + i * 0.07);
+      for (let x = 0; x < w; x += 5) {
+        const y = startY + Math.sin((x + time * 0.3) * 0.01 + i) * (20 + i * 5)
+                  + Math.cos((x + time * 0.2) * 0.008) * 15;
+        if (x === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+    }
+
+    // 星星
+    for (let i = 0; i < 30; i++) {
+      const sx = (w * ((i * 137.508) % 100) / 100);
+      const sy = (h * 0.5 * ((i * 59.71) % 100) / 100);
+      const pulse = Math.sin(time * 0.003 + i * 0.7) * 0.5 + 0.5;
+      const radius = 2 + pulse * 4;
+      const grd = ctx.createRadialGradient(sx, sy, 0, sx, sy, radius * 3);
+      grd.addColorStop(0, `rgba(255, 230, 100, ${0.8 * pulse})`);
+      grd.addColorStop(0.5, `rgba(255, 200, 50, ${0.3 * pulse})`);
+      grd.addColorStop(1, 'rgba(255, 200, 50, 0)');
+      ctx.beginPath();
+      ctx.arc(sx, sy, radius * 3, 0, Math.PI * 2);
+      ctx.fillStyle = grd;
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(sx, sy, radius, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(255, 240, 150, ${0.9 * pulse})`;
+      ctx.fill();
+    }
+
+    // 月亮
+    const moonX = w * 0.8, moonY = h * 0.15;
+    const moonPulse = Math.sin(time * 0.001) * 0.1 + 0.9;
+    const moonGrd = ctx.createRadialGradient(moonX, moonY, 0, moonX, moonY, 50);
+    moonGrd.addColorStop(0, `rgba(255, 240, 150, ${moonPulse})`);
+    moonGrd.addColorStop(0.6, `rgba(255, 210, 80, ${0.5 * moonPulse})`);
+    moonGrd.addColorStop(1, 'rgba(255, 200, 50, 0)');
+    ctx.beginPath();
+    ctx.arc(moonX, moonY, 50, 0, Math.PI * 2);
+    ctx.fillStyle = moonGrd;
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(moonX, moonY, 22, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(255, 235, 120, ${moonPulse})`;
+    ctx.fill();
+  }
+
+  // 莫奈睡莲动态背景
+  function drawWaterLilies(time) {
+    const w = canvas.width, h = canvas.height;
+
+    // 水面渐变
+    const grad = ctx.createLinearGradient(0, 0, 0, h);
+    grad.addColorStop(0, '#4a7a6a');
+    grad.addColorStop(0.3, '#3a6a5a');
+    grad.addColorStop(0.7, '#2a5a4a');
+    grad.addColorStop(1, '#1a4a3a');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, w, h);
+
+    // 水面波纹
+    for (let i = 0; i < 8; i++) {
+      ctx.beginPath();
+      ctx.strokeStyle = `hsla(${150 + i * 10}, 40%, ${50 + i * 3}%, 0.12)`;
+      ctx.lineWidth = 2;
+      const baseY = h * (0.1 + i * 0.11);
+      for (let x = 0; x < w; x += 3) {
+        const y = baseY + Math.sin((x + time * 0.2) * 0.005 + i * 0.8) * 8
+                  + Math.cos((x + time * 0.15) * 0.003 + i * 1.5) * 5;
+        if (x === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+    }
+
+    // 睡莲叶子
+    const leaves = [
+      {x: 0.15, y: 0.35}, {x: 0.3, y: 0.55}, {x: 0.5, y: 0.4},
+      {x: 0.65, y: 0.6}, {x: 0.8, y: 0.35}, {x: 0.4, y: 0.75},
+      {x: 0.7, y: 0.8}, {x: 0.2, y: 0.65}, {x: 0.85, y: 0.55}
+    ];
+    leaves.forEach((leaf, i) => {
+      const lx = w * leaf.x + Math.sin(time * 0.0008 + i) * 5;
+      const ly = h * leaf.y + Math.cos(time * 0.0006 + i * 0.7) * 3;
+      const size = 25 + i * 3;
+      ctx.beginPath();
+      ctx.ellipse(lx, ly, size, size * 0.7, Math.sin(time * 0.0003 + i) * 0.2, 0, Math.PI * 2);
+      ctx.fillStyle = `hsla(${130 + i * 5}, 45%, ${30 + i * 2}%, 0.6)`;
+      ctx.fill();
+      // 叶脉缺口
+      ctx.beginPath();
+      ctx.moveTo(lx, ly);
+      ctx.lineTo(lx + size * 0.8, ly - size * 0.2);
+      ctx.lineTo(lx + size * 0.8, ly + size * 0.2);
+      ctx.closePath();
+      ctx.fillStyle = `hsla(150, 30%, 40%, 0.3)`;
+      ctx.fill();
+    });
+
+    // 睡莲花朵
+    const flowers = [
+      {x: 0.2, y: 0.38}, {x: 0.55, y: 0.42}, {x: 0.75, y: 0.37},
+      {x: 0.35, y: 0.72}, {x: 0.6, y: 0.62}
+    ];
+    flowers.forEach((f, i) => {
+      const fx = w * f.x + Math.sin(time * 0.0007 + i * 2) * 4;
+      const fy = h * f.y + Math.cos(time * 0.0005 + i * 1.5) * 3;
+      const petalCount = 8;
+      for (let p = 0; p < petalCount; p++) {
+        const angle = (p / petalCount) * Math.PI * 2 + time * 0.0002 + i;
+        const px = fx + Math.cos(angle) * 12;
+        const py = fy + Math.sin(angle) * 8;
+        ctx.beginPath();
+        ctx.ellipse(px, py, 8, 4, angle, 0, Math.PI * 2);
+        const hue = i % 2 === 0 ? 330 : 30;
+        ctx.fillStyle = `hsla(${hue}, 60%, ${75 + Math.sin(time * 0.002 + p) * 10}%, 0.7)`;
+        ctx.fill();
+      }
+      // 花蕊
+      ctx.beginPath();
+      ctx.arc(fx, fy, 4, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(255, 220, 100, 0.8)';
+      ctx.fill();
+    });
+
+    // 光斑反射
+    for (let i = 0; i < 15; i++) {
+      const rx = (w * ((i * 97.3) % 100) / 100);
+      const ry = (h * ((i * 63.7) % 100) / 100);
+      const rAlpha = (Math.sin(time * 0.002 + i * 1.3) * 0.5 + 0.5) * 0.2;
+      ctx.beginPath();
+      ctx.arc(rx, ry, 3 + Math.sin(time * 0.003 + i) * 2, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(200, 230, 210, ${rAlpha})`;
+      ctx.fill();
+    }
+  }
+
+  function animate(time) {
+    if (!currentTheme) return;
+    if (currentTheme === 'vangogh') drawStarryNight(time);
+    else if (currentTheme === 'monet') drawWaterLilies(time);
+    animationId = requestAnimationFrame(animate);
+  }
+
+  function activateTheme(theme) {
+    if (currentTheme === theme) {
+      // 再次点击取消主题
+      currentTheme = null;
+      cancelAnimationFrame(animationId);
+      canvas.classList.remove('active');
+      document.body.classList.remove('theme-active', 'theme-vangogh', 'theme-monet');
+      btnVangogh.classList.remove('active');
+      btnMonet.classList.remove('active');
+      return;
+    }
+    currentTheme = theme;
+    document.body.classList.add('theme-active');
+    document.body.classList.remove('theme-vangogh', 'theme-monet');
+    document.body.classList.add('theme-' + theme);
+    canvas.classList.add('active');
+    btnVangogh.classList.toggle('active', theme === 'vangogh');
+    btnMonet.classList.toggle('active', theme === 'monet');
+    if (animationId) cancelAnimationFrame(animationId);
+    animationId = requestAnimationFrame(animate);
+  }
+
+  btnVangogh.addEventListener('click', () => activateTheme('vangogh'));
+  btnMonet.addEventListener('click', () => activateTheme('monet'));
 })();

@@ -40,6 +40,37 @@ body {
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
+  transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+body.theme-active {
+  background-color: transparent;
+}
+
+body.theme-vangogh .site-header {
+  background: linear-gradient(180deg, rgba(15, 25, 50, 0.9) 0%, rgba(20, 30, 60, 0.7) 100%);
+}
+
+body.theme-monet .site-header {
+  background: linear-gradient(180deg, rgba(60, 100, 80, 0.9) 0%, rgba(50, 90, 70, 0.7) 100%);
+}
+
+body.theme-vangogh .filter-bar,
+body.theme-vangogh .site-footer {
+  background-color: rgba(15, 25, 50, 0.85);
+}
+
+body.theme-monet .filter-bar,
+body.theme-monet .site-footer {
+  background-color: rgba(60, 100, 80, 0.85);
+}
+
+body.theme-vangogh .gallery {
+  background-color: rgba(10, 20, 40, 0.6);
+}
+
+body.theme-monet .gallery {
+  background-color: rgba(40, 80, 60, 0.5);
 }
 
 /* ===== 顶部笔触纹理装饰条 ===== */
@@ -68,6 +99,51 @@ body {
   text-align: center;
   padding: 60px 20px 40px;
   background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+  position: relative;
+  z-index: 2;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.theme-btn {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 3px solid var(--gold);
+  padding: 0;
+  cursor: pointer;
+  overflow: hidden;
+  background: none;
+  transition: var(--transition);
+  box-shadow: 0 2px 12px rgba(139, 94, 60, 0.2);
+  flex-shrink: 0;
+}
+
+.theme-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.theme-btn:hover {
+  transform: scale(1.15);
+  border-color: var(--accent);
+  box-shadow: 0 4px 20px rgba(139, 94, 60, 0.4);
+}
+
+.theme-btn:hover img {
+  transform: scale(1.1);
+}
+
+.theme-btn.active {
+  border-color: #fff;
+  box-shadow: 0 0 0 3px var(--gold), 0 4px 20px rgba(139, 94, 60, 0.5);
 }
 
 .site-title {
@@ -77,6 +153,46 @@ body {
   color: var(--text-primary);
   letter-spacing: 0.03em;
   margin-bottom: 12px;
+}
+
+/* ===== 动态背景画布 ===== */
+#bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#bg-canvas.active {
+  opacity: 1;
+}
+
+body.theme-active .site-header,
+body.theme-active .filter-bar,
+body.theme-active .gallery,
+body.theme-active .empty-state,
+body.theme-active .site-footer {
+  position: relative;
+  z-index: 1;
+}
+
+body.theme-vangogh {
+  --bg-primary: rgba(25, 30, 60, 0.85);
+  --text-primary: #f0e8d0;
+  --text-secondary: #d4c4a8;
+  --text-muted: #a0937a;
+}
+
+body.theme-monet {
+  --bg-primary: rgba(220, 235, 220, 0.85);
+  --text-primary: #2c3e2c;
+  --text-secondary: #4a6a4a;
+  --text-muted: #6a8a6a;
 }
 
 .site-subtitle {
